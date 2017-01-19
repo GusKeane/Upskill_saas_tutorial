@@ -21,7 +21,7 @@
 
 // Typography styles 
 h1, h2 { 
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Bungee Inline', cursive;
     // font-family: 'Pacifico', cursive; 
 }
 
@@ -39,7 +39,7 @@ h1, h2 {
 
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 1200;
+  font-weight: 800;
 }
 
 .navbar-default .navbar-brand,
@@ -57,3 +57,21 @@ h1, h2 {
     margin-top: -20px;
     padding: 50px 0px 100px;
 };
+
+
+// Working additions 
+// .navbar-default .navbar-toggle .icon-bar {
+//     background-color: white;
+//     &:hover {
+//         background-color: white;
+//     }
+// }
+.navbar-default .navbar-toggle {
+    border: 1px solid white;
+    &:hover, &:focus {
+        background-color:rgba(255,255,255,0.2);
+    }
+    & .icon-bar {
+        background-color: white;
+    }
+}
