@@ -36,6 +36,12 @@ h1, h2 {
 .navbar {
     border: none;
 }
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1200;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default  .navbar-nav li a {
     color: white;
